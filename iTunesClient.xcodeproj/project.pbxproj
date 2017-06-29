@@ -24,6 +24,8 @@
 		CC2D14B31ED1F78400B9CAE1 /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2D14B21ED1F78400B9CAE1 /* AlbumCell.swift */; };
 		CC2D14B51ED1F89E00B9CAE1 /* AlbumListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2D14B41ED1F89E00B9CAE1 /* AlbumListDataSource.swift */; };
 		CC562DA31F04F5AA00E41156 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = CC562DA21F04F5AA00E41156 /* .gitignore */; };
+		CC562DA51F04FB6500E41156 /* ArtworkDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC562DA41F04FB6500E41156 /* ArtworkDownloader.swift */; };
+		CC562DA71F05021600E41156 /* PendingOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC562DA61F05021600E41156 /* PendingOperations.swift */; };
 		CC8E51601F028C37005B1F7B /* iTunesMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8E515F1F028C37005B1F7B /* iTunesMedia.swift */; };
 		CC8E51621F028CA3005B1F7B /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8E51611F028CA3005B1F7B /* Endpoint.swift */; };
 		CC8E51651F029DC3005B1F7B /* iTunesEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8E51641F029DC3005B1F7B /* iTunesEntity.swift */; };
@@ -59,6 +61,8 @@
 		CC2D14B21ED1F78400B9CAE1 /* AlbumCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlbumCell.swift; path = ../AlbumCell.swift; sourceTree = "<group>"; };
 		CC2D14B41ED1F89E00B9CAE1 /* AlbumListDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumListDataSource.swift; sourceTree = "<group>"; };
 		CC562DA21F04F5AA00E41156 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		CC562DA41F04FB6500E41156 /* ArtworkDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArtworkDownloader.swift; path = ../ArtworkDownloader.swift; sourceTree = "<group>"; };
+		CC562DA61F05021600E41156 /* PendingOperations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PendingOperations.swift; sourceTree = "<group>"; };
 		CC8E515F1F028C37005B1F7B /* iTunesMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iTunesMedia.swift; sourceTree = "<group>"; };
 		CC8E51611F028CA3005B1F7B /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		CC8E51631F028E9B005B1F7B /* URLEncoding.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = URLEncoding.playground; sourceTree = "<group>"; };
@@ -126,10 +130,10 @@
 			isa = PBXGroup;
 			children = (
 				CC8E515E1F028C11005B1F7B /* Endpoint */,
+				CC2D149F1ED09F2800B9CAE1 /* Album.swift */,
 				CC2D149B1ED09E8200B9CAE1 /* Artist.swift */,
 				CC2D14A71ED0A29000B9CAE1 /* Stub.swift */,
 				CC2D14A51ED0A1B300B9CAE1 /* Song.swift */,
-				CC2D149F1ED09F2800B9CAE1 /* Album.swift */,
 				CC2D149D1ED09EFF00B9CAE1 /* Genre.swift */,
 			);
 			name = Models;
@@ -191,8 +195,10 @@
 			isa = PBXGroup;
 			children = (
 				CC8E516B1F02A93A005B1F7B /* JSONDownloader.swift */,
+				CC562DA41F04FB6500E41156 /* ArtworkDownloader.swift */,
 				CC8E516F1F02AA3D005B1F7B /* iTunesAPIClient.swift */,
 				CC8E516D1F02A999005B1F7B /* iTunesError.swift */,
+				CC562DA61F05021600E41156 /* PendingOperations.swift */,
 			);
 			name = Networking;
 			sourceTree = "<group>";
@@ -273,6 +279,8 @@
 			files = (
 				CC8E516E1F02A999005B1F7B /* iTunesError.swift in Sources */,
 				CC8E516C1F02A93A005B1F7B /* JSONDownloader.swift in Sources */,
+				CC562DA51F04FB6500E41156 /* ArtworkDownloader.swift in Sources */,
+				CC562DA71F05021600E41156 /* PendingOperations.swift in Sources */,
 				CC2D14A61ED0A1B300B9CAE1 /* Song.swift in Sources */,
 				CC2D149C1ED09E8200B9CAE1 /* Artist.swift in Sources */,
 				CC2D14891ED09E5B00B9CAE1 /* ViewController.swift in Sources */,
